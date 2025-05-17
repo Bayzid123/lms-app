@@ -58,9 +58,6 @@ const App: React.FC = () => {
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
-        <footer className="bg-gray-200 text-center p-4 mt-8">
-          &copy; 2025 LMS App. All rights reserved.
-        </footer>
       </div>
     </Router>
   );
